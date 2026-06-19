@@ -1,0 +1,42 @@
+[
+  {
+    "id": 3,
+    "id_auto": 1,
+    "id_cliente": 2,
+    "id_vendedor": 3,
+    "fecha": "2026-06-18",
+    "precio_final": 4324324.0,
+    "forma_pago": "financiado",
+    "estado_de_pago": "cobrado"
+  },
+  {
+    "id": 4,
+    "id_auto": 2,
+    "id_cliente": 3,
+    "id_vendedor": 4,
+    "fecha": "2026-06-18",
+    "precio_final": 123123.0,
+    "forma_pago": "contado",
+    "estado_de_pago": "cobrado"
+  },
+  {
+    "id": 5,
+    "id_auto": 1,
+    "id_cliente": 1,
+    "id_vendedor": 1,
+    "fecha": "2026-06-18",
+    "precio_final": 123123.0,
+    "forma_pago": "contado",
+    "estado_de_pago": "cobrado"
+  },
+  {
+    "id": 6,
+    "id_auto": 1,
+    "id_cliente": 1,
+    "id_vendedor": 1,
+    "fecha": "2026-06-18",
+    "precio_final": 12.0,
+    "forma_pago": "parte_de_pago",
+    "estado_de_pago": "en_cuotas"
+  }
+]
