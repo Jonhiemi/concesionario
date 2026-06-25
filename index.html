@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos del Litoral</title>
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-car"></i>
+                    <h1>Autos del Litoral</h1>
+                </div>
+                <div class="header-info">
+                    <span id="fecha-actual"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegación principal -->
+        <nav class="nav-principal">
+            <div class="container">
+                <button class="nav-btn active" data-modulo="autos">
+                    <i class="fas fa-warehouse"></i> Autos
+                </button>
+                <button class="nav-btn" data-modulo="clientes">
+                    <i class="fas fa-users"></i> Clientes
+                </button>
+                <button class="nav-btn" data-modulo="ventas">
+                    <i class="fas fa-hand-holding-usd"></i> Ventas
+                </button>
+                <button class="nav-btn" data-modulo="reservas">
+                    <i class="fas fa-calendar-check"></i> Reservas
+                </button>
+                <button class="nav-btn" data-modulo="vendedores">
+                    <i class="fas fa-user-tie"></i> Vendedores
+                </button>
+            </div>
+        </nav>
+
+        <!-- Contenido dinámico -->
+        <main class="main-content">
+            <div class="container">
+                <div id="content">
+                    <!-- El contenido se carga dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2026 Autos del Litoral - Grupo 77</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
